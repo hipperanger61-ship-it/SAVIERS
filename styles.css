@@ -1,0 +1,20 @@
+/* 
+  Custom styles for Problems Solved™
+  Note: Most styling is handled by Tailwind CSS via CDN in the HTML file.
+*/
+
+body {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom hover effects for product images */
+.group:hover img {
+    transform: scale(1.05);
+}
